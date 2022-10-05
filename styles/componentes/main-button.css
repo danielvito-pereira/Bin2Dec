@@ -1,0 +1,19 @@
+.main-button {
+  display: inline-block; 
+  background-color: #1f1212;
+  padding: 18px 20px;
+  margin-right: 0;
+  transition: 90ms ease-in-out;
+  font-style: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-button:hover {
+   transform: scale(1.05);
+}
+
+.main-button.-formu {
+
+  width: 100%;
+}

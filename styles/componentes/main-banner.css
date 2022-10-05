@@ -1,0 +1,19 @@
+.main-wrapper {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin: auto;
+
+  width: 50%;
+  height: 50vh;
+}
+
+.section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content:center;
+  align-items:center;
+}
+
