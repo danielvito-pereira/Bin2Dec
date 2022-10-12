@@ -4,8 +4,11 @@
   align-items:center;
   flex-direction:column;
   margin: auto;
-  width: 80%;
-  height: 50vh;
+  max-width: 50%;
+  height: 80%;
+  padding:1rem;
+  background-color: slategrey;
+  border-radius: 1%;
 }
 
 .section {
