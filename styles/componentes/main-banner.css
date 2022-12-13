@@ -19,3 +19,8 @@
   align-items:center;
 }
 
+div#error-msg {
+  color: red;
+  display: none;
+}
+

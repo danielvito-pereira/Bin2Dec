@@ -23,11 +23,13 @@
       <label class="main-label" >Binary:</label>
       <input class="main-input" type="text"  maxlength="8" id="binary" placeholder="Insira 0 ou 1 ">
 
-      <button id="btn" class="main-button">Converter</button>
+      <button type="button" id="btn" class="main-button" onclick="convertBinarioForDecimal()">Converter</button>
 
       <label class="main-label" for="decimal">Decimal Output:</label>
         <h1 id="output"></h1>
-   
+        <div id="error-msg">
+          <p>You should enter a binary number composed by 0 and 1!</p>
+        </div>
     </form>
     </section>
   </div>
